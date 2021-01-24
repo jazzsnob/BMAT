@@ -4,7 +4,7 @@ A python script for uploading db_works_test.csv data to MongoDB, as well as quer
 ```
 pip install -r requirements.txt
 ```
-Copy and past the connection string into the code (line 65), within the double quotes of MongoClient("**connection string**"):
+Copy and past the connection string into the code (line 63), within the double quotes of MongoClient("**connection string**"):
 ```
 cluster = MongoClient("mongodb+srv://bmatUser:<password>@cluster0.rtjcd.mongodb.net/<dbname>?retryWrites=true&w=majority")
 ```
